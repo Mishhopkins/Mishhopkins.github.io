@@ -19,11 +19,11 @@ title: "MISHAEL M. MORARA" # the main title
 tagline: "AI SECURITY | CYBERSECURITY ANALYST |  IT SYSTEMS ADMIN | WEB DEVELOPER" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-I am an AI Security Guardian dedicated to securing the next generation of intelligent systems. I specialize 
-Designing the next generation of intelligent. I specialize in the design of autonomous 'Zero Trust’ systems where 
-AI monitors and protects other AI models. My goal is to enable innovation by ensuring security is a foundational 
-feature, not an afterthought." through building "Guardrails" to ensure that as organizations scale their AI power, 
-they do so without compromising data integrity or stakeholder trust.
+  I am an AI Security Guardian dedicated to securing the next generation of intelligent systems. I specialize
+  Designing the next generation of intelligent. I specialize in the design of autonomous 'Zero Trust' systems where
+  AI monitors and protects other AI models. My goal is to enable innovation by ensuring security is a foundational
+  feature, not an afterthought." through building "Guardrails" to ensure that as organizations scale their AI power,
+  they do so without compromising data integrity or stakeholder trust.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
