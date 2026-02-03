@@ -14,35 +14,39 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: "MISHAEL M. MORARA" # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: "AI SECURITY | CYBERSECURITY ANALYST |  IT SYSTEMS ADMIN | WEB DEVELOPER" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+I am an AI Security Guardian dedicated to securing the next generation of intelligent systems. I specialize 
+Designing the next generation of intelligent. I specialize in the design of autonomous 'Zero Trust’ systems where 
+AI monitors and protects other AI models. My goal is to enable innovation by ensuring security is a foundational 
+feature, not an afterthought." through building "Guardrails" to ensure that as organizations scale their AI power, 
+they do so without compromising data integrity or stakeholder trust.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://mishhopkins.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: mishhopkins # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: @MishaelMomanyi # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Mishael M. Morara
+  email: mishaelmorara@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://twitter.com/MishaelMomanyi # change to your Twitter homepage
+    - https://github.com/mishhopkins # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/mishael-momanyi 
 
 # Site Verification Settings
 webmaster_verifications:
