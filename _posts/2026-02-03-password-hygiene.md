@@ -10,9 +10,11 @@ height: 630
 ---
 
 **🔐 Password Hygiene**
+
 Hello There,
  
 We'll start off by the First Line of Cyber Defense 💻
+
 In the digital age, your password is more than a key — it’s your first line of defense against cyber threats! 🛡️ Yet, millions of accounts are compromised daily due to poor password habits. 
 Let’s change that! 💪 Today we’re talking about Password Hygiene — the essential practices to keep our digital life & critical information safe and secure. 🔐
 
