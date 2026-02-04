@@ -11,12 +11,14 @@ Hello There,
 We'll start off by the First Line of Cyber Defense 💻
 In the digital age, your password is more than a key — it’s your first line of defense against cyber threats! 🛡️ Yet, millions of accounts are compromised daily due to poor password habits. 
 Let’s change that! 💪 Today we’re talking about Password Hygiene — the essential practices to keep our digital life & critical information safe and secure. 🔐
+
 **✅ What is a password in cybersecurity terms?**
 
 A password is simply a secret string of characters used to authenticate a user's identity and grant access to digital systems.
 
 **✅ 🔟 Must-follow tips to create strong, secure, and memorable passwords**
 Use a strong, unique password 
+
 Always enable 2-Factor Authentication
 Change Passwords regularly
 Use a Password manger -to store your passwords, pins and secret phrases
