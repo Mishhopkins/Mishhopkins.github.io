@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 icon: fas fa-project-diagram
-order: 2
+order: 3
 ---
 
 ## Featured Work
