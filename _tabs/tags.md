@@ -1,5 +1,7 @@
 ---
-layout: tags
-icon: fas fa-tags
-order: 6
+layout: page  
+title: My Services
+permalink: /services/
+icon: fa fa-life-ring
+order: 3
 ---
