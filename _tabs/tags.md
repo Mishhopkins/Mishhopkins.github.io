@@ -1,6 +1,6 @@
 ---
 layout: tags  
-title: My Services
+title: tags
 permalink: /tags/
 icon: fa fa-life-ring
 order: 3
