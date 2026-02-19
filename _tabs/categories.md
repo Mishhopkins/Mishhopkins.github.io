@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Services
-permalink: /services/
+permalink: /categories/
 icon: fas fa-stream
 order: 5
 ---
