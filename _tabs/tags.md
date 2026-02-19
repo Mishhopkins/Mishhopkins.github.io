@@ -1,7 +1,7 @@
 ---
-layout: page  
+layout: tags  
 title: My Services
-permalink: /services/
+permalink: /tags/
 icon: fa fa-life-ring
 order: 3
 ---
