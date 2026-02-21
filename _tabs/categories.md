@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Services
+title: categories
 icon: fas fa-stream
 order: 6
 ---
