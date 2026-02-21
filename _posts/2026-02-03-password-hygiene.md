@@ -1,7 +1,7 @@
 ---
 title: "Password Hygiene"
 date: 2026-02-03 12:04:00 +0300
-categories: [Cybersecurity, Password Safety]
+categories: [Cybersecurity, Password Safety, encryption]
 tags: [cyber, encryption, passwords, cybersecurity]
 image:
 path: /assets/pass.jpg
