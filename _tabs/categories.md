@@ -1,8 +1,6 @@
 ---
 layout: category
-title: catogories
+title: category
 permalink: /categories/
 icon: fas fa-stream
-order: 6
 ---
-
