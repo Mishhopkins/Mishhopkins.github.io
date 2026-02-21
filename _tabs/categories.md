@@ -1,8 +1,8 @@
 ---
 layout: category
-title: Services
+title: catogories
 permalink: /categories/
 icon: fas fa-stream
-order: 5
-order: false
+order: 6
 ---
+
