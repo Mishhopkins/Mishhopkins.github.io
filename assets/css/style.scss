@@ -1,0 +1,5 @@
+/* Brighten the sidebar description text */
+#sidebar #profile-wrapper .profile-desc {
+  color: #ffffff; /* This makes it pure white */
+  opacity: 0.9;   /* Adjust this (0.1 to 1.0) for brightness */
+}
