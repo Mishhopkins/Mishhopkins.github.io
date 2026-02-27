@@ -7,8 +7,9 @@ order: 2
 
 <style>
   :root {
-    --brand-orange: #ff8c00; /* From your profile border */
-    --brand-navy: #1a2a44;   /* From your waistcoat */
+    --brand-orange: #ff8c00; 
+    --brand-navy: #1a2a44;  
+    --brand-blue: ##007be9
   }
   .resume-card { border-left: 5px solid var(--brand-orange) !important; border-radius: 8px; }
   .btn-brand { background-color: var(--brand-orange); color: white; border: none; font-weight: bold; }
@@ -41,7 +42,7 @@ order: 2
     </div>
   </div>
 
-<div>
+<div class="card-body">
      <div class="d-flex justify-content-between align-items-center">
       <div>
         <h4 class="mb-1 **font-weight-bold**">Kenya Certificate of Secondary Education - KCSE</h4>
@@ -53,7 +54,7 @@ order: 2
     </div>
    </div> 
 
-<div>
+<div class="card-body">
      <div class="d-flex justify-content-between align-items-center">
       <div>
         <h4 class="mb-1 font-weight-bold">Kenya Certificate of Primary Education - KCPE</h4>
@@ -71,7 +72,7 @@ order: 2
 
   <div class="position-relative mb-5">
     <div class="position-absolute shadow-sm timeline-dot" style="left: -33px; top: 0; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
-    <h5 class="mb-1 **font-weight-bold**">IT Administrator</h5>
+    <h5 class="mb-1 font-weight-bold">IT Administrator</h5>
     <p class="mb-2" style="color: var(--brand-orange); font-weight: 600;"> Bayinah Academy | Feb 2025 — Present </p>
     <ul class="text-muted small">
       <li>System Management: Routine technical support for ERP platforms and cloud systems.</li>
@@ -81,19 +82,19 @@ order: 2
   </div>
 
   <div class="position-relative mb-5">
-    <div class="position-absolute shadow-sm" style="left: -33px; top: 0; background: #6c757d; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
+    <div class="position-absolute shadow-sm timeline-dot" style="left: -33px; top: 0; background: #007be9; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
     <h5 class="mb-1 font-weight-bold">IT Physical Security Trainee</h5>
-    <p class="text-secondary mb-2">Renocon Security Agencies | 2024 — 2025 ]</p>
+    <p class="mb-2" style="color: var(--brand-blue); font-weight: 600;">Renocon Security Agencies | 2024 — 2025 ]</p>
     <ul class="text-muted small">
       <li>Design & Installation: Specialized in physical security with RFID and Biometrics.</li>
       <li>Efficiency: Contributed to a 25% increase in critical system uptime.</li>
     </ul>
   </div>
 
-  <div class="position-relative mb-4">
-    <div class="position-absolute shadow-sm" style="left: -33px; top: 0; background: #6c757d; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
+  <div class="position-relative mb-5">
+    <div class="position-absolute shadow-sm timeline-dot" style="left: -33px; top: 0; background: #007be9; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
     <h5 class="mb-1 font-weight-bold">IT Technician (Attachee)</h5>
-    <p class="text-secondary mb-2">Kenya Power & Lighting Company (KPLC) | 2023 </p>
+    <p class="mb-2" style="color: var(--brand-blue); font-weight: 600;">Kenya Power & Lighting Company (KPLC) | 2023 </p>
     <ul class="text-muted small">
       <li>Networking: Fiber repairs using fiber splicing kits and troubleshooting LAN/WAN </li>
       <li>Admin: Configuration of network printers and in-house business systems (SAP/DCS)</li>
@@ -106,25 +107,25 @@ order: 2
   <div class="col-6 col-md-3 mb-4">
     <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
       <i class="fab fa-python fa-2x mb-2" style="color: var(--brand-navy);"></i>
-      <div class="small **font-weight-bold**">Python </div>
+      <div class="small font-weight-bold">Python </div>
     </div>
   </div>
   <div class="col-6 col-md-3 mb-4">
     <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
       <i class="fas fa-shield-alt fa-2x mb-2" style="color: var(--brand-navy);"></i>
-      <div class="small **font-weight-bold**">Cybersecurity </div>
+      <div class="small font-weight-bold">Cybersecurity </div>
     </div>
   </div>
   <div class="col-6 col-md-3 mb-4">
     <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
       <i class="fas fa-network-wired fa-2x mb-2" style="color: var(--brand-navy);"></i>
-      <div class="small **font-weight-bold**">Networking </div>
+      <div class="small font-weight-bold">Networking </div>
     </div>
   </div>
   <div class="col-6 col-md-3 mb-4">
     <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
       <i class="fas fa-database fa-2x mb-2" style="color: var(--brand-navy);"></i>
-      <div class="small **font-weight-bold**">SQL/PHP </div>
+      <div class="small font-weight-bold">SQL/PHP </div>
     </div>
   </div>
 </div>
@@ -135,9 +136,12 @@ order: 2
       <div class="card-body">
         <h5 class="text-navy"><i class="fas fa-certificate text-warning mr-2"></i>Certifications</h5>
         <ul class="list-unstyled small pt-2">
+          <li><i class="fas fa-check text-success mr-2"></i> Data & Artificial Intelligence (Cyber Shujaa) - <i>ongoing</i> </li>
           <li><i class="fas fa-check text-success mr-2"></i> Introduction to Cybersecurity (Cisco)</li>
           <li><i class="fas fa-check text-success mr-2"></i> Virtual Assistant (ALX) </li>
-          <li><i class="fas fa-check text-success mr-2"></i> Web Development (Udemy) </li>
+          <li><i class="fas fa-check text-success mr-2"></i> Web Development Bootcamp (Udemy) </li>
+          <li><i class="fas fa-check text-success mr-2"></i> Cybersecurity fundamentals (CIP Cyber) </li>
+          
         </ul>
       </div>
     </div>
