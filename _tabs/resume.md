@@ -7,7 +7,7 @@ order: 2
 
 <div class="resume-container">
   <div class="text-right mb-4">
-    <a href="/assets/pdf/Mishael_CV.pdf" class="btn btn-primary">
+    <a href="/assets/pdf/Mishael-CV.pdf" class="btn btn-primary">
       <i class="fas fa-download"></i> Download Full PDF CV
     </a>
   </div>
