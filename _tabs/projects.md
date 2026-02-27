@@ -84,7 +84,7 @@ order: 3
         <h3 class="text-brand-navy mb-3">NETFLIX DATA WRANGLING PROJECT</h3>
         
         <p class="card-text text-dark mb-4">
-          **The Challenge:** Raw datasets from Netflix often contain significant noise, duplicates, and inconsistent formatting that prevent accurate analysis[cite: 1, 10, 11].
+          **The Challenge:** Raw datasets from Netflix often contain significant noise, duplicates, and inconsistent formatting that prevent accurate analysis
           <br><br>
           **The Solution:** I performed a full data lifecycle transformation:
           1. **Cleaning**: Eliminated errors, null values, and redundant duplicates.
@@ -106,9 +106,3 @@ order: 3
     </div>
   </div>
 
-  </div>
-        </a>
-      </div>
-    </div>
-  </div>
-  </div>
