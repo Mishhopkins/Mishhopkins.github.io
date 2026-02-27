@@ -9,11 +9,11 @@ order: 2
   :root {
     --brand-orange: #ff8c00; 
     --brand-navy: #1a2a44;  
-    --brand-blue: ##007be9
+    --brand-blue: #007be9;
   }
   .resume-card { border-left: 5px solid var(--brand-orange) !important; border-radius: 8px; }
   .btn-brand { background-color: var(--brand-orange); color: white; border: none; font-weight: bold; }
-  .btn-brand:hover { background-color: #e67e00; color: white; transform: translateY(-2px); transition: 0.3s; }
+  .btn-brand:hover { background-color: #007be9; color: white; transform: translateY(-2px); transition: 0.3s; }
   .text-navy { color: var(--brand-navy); font-weight: 700; }
   .timeline-dot { background: var(--brand-orange); }
 </style>
@@ -84,7 +84,7 @@ order: 2
   <div class="position-relative mb-5">
     <div class="position-absolute shadow-sm timeline-dot" style="left: -33px; top: 0; background: #007be9; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
     <h5 class="mb-1 font-weight-bold">IT Physical Security Trainee</h5>
-    <p class="mb-2" style="color: var(--brand-blue); font-weight: 600;">Renocon Security Agencies | 2024 — 2025 ]</p>
+    <p class="mb-2" style="color: var(--brand-orange); font-weight: 600;">>Renocon Security Agencies | 2024 — 2025 ]</p>
     <ul class="text-muted small">
       <li>Design & Installation: Specialized in physical security with RFID and Biometrics.</li>
       <li>Efficiency: Contributed to a 25% increase in critical system uptime.</li>
@@ -94,7 +94,7 @@ order: 2
   <div class="position-relative mb-5">
     <div class="position-absolute shadow-sm timeline-dot" style="left: -33px; top: 0; background: #007be9; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
     <h5 class="mb-1 font-weight-bold">IT Technician (Attachee)</h5>
-    <p class="mb-2" style="color: var(--brand-blue); font-weight: 600;">Kenya Power & Lighting Company (KPLC) | 2023 </p>
+    <p class="mb-2" style="color: var(--brand-orange); font-weight: 600;">Kenya Power & Lighting Company (KPLC) | 2023 </p>
     <ul class="text-muted small">
       <li>Networking: Fiber repairs using fiber splicing kits and troubleshooting LAN/WAN </li>
       <li>Admin: Configuration of network printers and in-house business systems (SAP/DCS)</li>
@@ -133,8 +133,8 @@ order: 2
 <div class="row mt-2">
   <div class="col-md-6 mb-3">
     <div class="card border-0 shadow-sm h-100">
-      <div class="card-body">
-        <h5 class="text-navy"><i class="fas fa-certificate text-warning mr-2"></i>Certifications</h5>
+      <div class="card-body text-center">
+        <h4 class="text-navy"><i class="fas fa-certificate text-warning mr-2"></i>Certifications</h4>
         <ul class="list-unstyled small pt-2">
           <li><i class="fas fa-check text-success mr-2"></i> Data & Artificial Intelligence (Cyber Shujaa) - <i>ongoing</i> </li>
           <li><i class="fas fa-check text-success mr-2"></i> Introduction to Cybersecurity (Cisco)</li>
@@ -150,13 +150,13 @@ order: 2
   <div class="col-md-6 mb-3">
     <div class="card border-0 shadow-sm h-100">
       <div class="card-body text-center">
-        <h5 class="text-navy mb-3">Languages</h5>
+        <h4 class="text-navy mb-3">Languages</h4>
         <div class="d-flex justify-content-around">
           <div>
-            <span class="font-weight-bold">English</span><br><small class="badge badge-light border">Advanced </small>
+            <span class="font-weight-bold">English</span> <br> <br> <small class="badge badge-light border">Advanced </small>
           </div>
           <div>
-            <span class="font-weight-bold">Kiswahili</span><br><small class="badge badge-light border">Advanced</small>
+            <span class="font-weight-bold">Kiswahili</span> <br> <br> <small class="badge badge-light border">Advanced</small>
           </div>
         </div>
       </div>
