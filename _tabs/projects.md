@@ -70,7 +70,7 @@ order: 3
     <div class="card project-card shadow-sm h-100">
       
       <div class="img-container">
-        <img src="/assets/img/my_Thumbnail.jpg" class="card-img-top" alt="Netflix Data Wrangling">
+        <img src="/assets/img/my_Thumbnail.png" class="card-img-top" alt="Netflix Data Wrangling">
         <div class="position-absolute" style="top: 15px; right: 15px;">
           <span class="badge badge-pill badge-category p-2 px-3 shadow">DATA SCIENCE</span>
         </div>
