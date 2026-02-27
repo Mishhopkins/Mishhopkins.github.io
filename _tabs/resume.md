@@ -64,8 +64,6 @@ order: 2
       </span>
     </div>
   </div> 
-
-  </div>
 </div>
 
 <h3 class="text-navy mb-4"><i class="fas fa-briefcase mr-2"></i> PROFESSIONAL EXPERIENCE</h3>
