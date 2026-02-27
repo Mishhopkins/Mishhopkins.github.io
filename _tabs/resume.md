@@ -82,9 +82,9 @@ order: 2
   </div>
 
   <div class="position-relative mb-5">
-    <div class="position-absolute shadow-sm timeline-dot" style="left: -33px; top: 0; background: #007be9; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
+    <div class="position-absolute shadow-sm timeline-dot" style="left: -33px; top: 0; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
     <h5 class="mb-1 font-weight-bold">IT Physical Security Trainee</h5>
-    <p class="mb-2" style="color: var(--brand-orange); font-weight: 600;">>Renocon Security Agencies | 2024 — 2025 ]</p>
+    <p class="mb-2" style="color: var(--brand-orange); font-weight: 600;">Renocon Security Agencies | 2024 — 2025 </p>
     <ul class="text-muted small">
       <li>Design & Installation: Specialized in physical security with RFID and Biometrics.</li>
       <li>Efficiency: Contributed to a 25% increase in critical system uptime.</li>
@@ -92,7 +92,7 @@ order: 2
   </div>
 
   <div class="position-relative mb-5">
-    <div class="position-absolute shadow-sm timeline-dot" style="left: -33px; top: 0; background: #007be9; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
+    <div class="position-absolute shadow-sm timeline-dot" style="left: -33px; top: 0; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
     <h5 class="mb-1 font-weight-bold">IT Technician (Attachee)</h5>
     <p class="mb-2" style="color: var(--brand-orange); font-weight: 600;">Kenya Power & Lighting Company (KPLC) | 2023 </p>
     <ul class="text-muted small">
@@ -106,25 +106,25 @@ order: 2
 <div class="row text-center">
   <div class="col-6 col-md-3 mb-4">
     <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
-      <i class="fab fa-python fa-2x mb-2" style="color: var(--brand-navy);"></i>
+      <i class="fab fa-python fa-2x mb-2" style="color: #007be9;"></i>
       <div class="small font-weight-bold">Python </div>
     </div>
   </div>
   <div class="col-6 col-md-3 mb-4">
     <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
-      <i class="fas fa-shield-alt fa-2x mb-2" style="color: var(--brand-navy);"></i>
+      <i class="fas fa-shield-alt fa-2x mb-2" style="color: #007be9;"></i>
       <div class="small font-weight-bold">Cybersecurity </div>
     </div>
   </div>
   <div class="col-6 col-md-3 mb-4">
     <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
-      <i class="fas fa-network-wired fa-2x mb-2" style="color: var(--brand-navy);"></i>
+      <i class="fas fa-network-wired fa-2x mb-2" style="color: #007be9;"></i>
       <div class="small font-weight-bold">Networking </div>
     </div>
   </div>
   <div class="col-6 col-md-3 mb-4">
     <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
-      <i class="fas fa-database fa-2x mb-2" style="color: var(--brand-navy);"></i>
+      <i class="fas fa-database fa-2x mb-2" style="color: #007be9;"></i>
       <div class="small font-weight-bold">SQL/PHP </div>
     </div>
   </div>
