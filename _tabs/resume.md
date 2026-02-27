@@ -5,71 +5,128 @@ icon: fas fa-file-alt
 order: 2
 ---
 
-<div class="resume-container">
-  <div class="text-right mb-4">
-    <a href="/assets/pdf/Mishael-CV.pdf" class="btn btn-primary">
-      <i class="fas fa-download"></i> Download Full PDF CV
-    </a>
-  </div>
+<style>
+  :root {
+    --brand-orange: #ff8c00; /* From your profile border */
+    --brand-navy: #1a2a44;   /* From your waistcoat */
+  }
+  .resume-card { border-left: 5px solid var(--brand-orange) !important; border-radius: 8px; }
+  .btn-brand { background-color: var(--brand-orange); color: white; border: none; font-weight: bold; }
+  .btn-brand:hover { background-color: #e67e00; color: white; transform: translateY(-2px); transition: 0.3s; }
+  .text-navy { color: var(--brand-navy); font-weight: 700; }
+  .timeline-dot { background: var(--brand-orange); }
+</style>
 
-  <h3><i class="fas fa-graduation-cap"></i> Academic Background</h3>
-  <div class="card mb-3 border-left-primary">
-    <div class="card-body">
-      <h5 class="mb-1">Bachelor of Science in Information Technology</h5>
-      <p class="text-muted mb-1">Technical University of Mombasa | 2019 – 2023</p>
-      <span class="badge badge-success">1st Class Honors</span>
+<div class="d-flex justify-content-between align-items-center mb-5">
+  <div>
+    <h2 class="text-navy mb-0">MISHAEL M. MORARA</h2>
+    <p class="text-muted">**Cybersecurity Enthusiast | IT Systems Admin | AI Researcher** [cite: 2, 10]</p>
+  </div>
+  <a href="/assets/pdf/Mishael-CV.pdf" class="btn btn-brand shadow">
+    <i class="fas fa-file-download mr-2"></i> **DOWNLOAD FULL CV**
+  </a>
+</div>
+
+<h3 class="text-navy mb-3"><i class="fas fa-graduation-cap mr-2"></i> ACADEMIC BACKGROUND</h3>
+<div class="card shadow-sm resume-card mb-5">
+  <div class="card-body">
+    <div class="d-flex justify-content-between align-items-center">
+      <div>
+        <h5 class="mb-1 **font-weight-bold**">Bachelor of Science in Information Technology [cite: 79]</h5>
+        <p class="mb-0 text-secondary">**Technical University of Mombasa** | 2019 — 2023 [cite: 80, 81]</p>
+      </div>
+      <span class="badge p-2 px-3 shadow-sm" style="background-color: var(--brand-orange); color: white; font-size: 0.9rem;">
+        **1st CLASS HONORS** [cite: 83]
+      </span>
     </div>
   </div>
+</div>
 
-  <h3 class="mt-4"><i class="fas fa-briefcase"></i> Work Experience</h3>
-  
-  <div class="timeline-item pb-3 border-left ml-3 pl-4">
-    <h5 class="mb-0">IT Administrator</h5>
-    <p class="text-info mb-1">Bayinah Academy | Feb 2025 – Present</p>
-    <small>Overseeing CCTV infrastructure, biometric systems, and school ERP management with 98%+ system uptime.</small>
+<h3 class="text-navy mb-4"><i class="fas fa-briefcase mr-2"></i> PROFESSIONAL EXPERIENCE</h3>
+<div class="ml-3 border-left border-secondary pl-4">
+
+  <div class="position-relative mb-5">
+    <div class="position-absolute shadow-sm timeline-dot" style="left: -33px; top: 0; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
+    <h5 class="mb-1 **font-weight-bold**">IT Administrator [cite: 17]</h5>
+    <p class="mb-2" style="color: var(--brand-orange); font-weight: 600;">**Bayinah Academy** | Feb 2025 — Present [cite: 18, 19]</p>
+    <ul class="text-muted small">
+      <li>**System Management**: Routine technical support for ERP platforms and cloud systems[cite: 20, 21].</li>
+      <li>**Security**: Oversight of **Biometric attendance** and **CCTV infrastructure**[cite: 23].</li>
+      <li>**Uptime**: Ensuring **98%+ system uptime** across all ICT assets[cite: 22].</li>
+    </ul>
   </div>
 
-  <div class="timeline-item pb-3 border-left ml-3 pl-4">
-    <h5 class="mb-0">IT Physical Security Trainee</h5>
-    <p class="text-info mb-1">Renocon Security Agencies | 2024 – 2025</p>
-    <small>Specialized in RFID and biometric access controls for critical infrastructures like banks.</small>
+  <div class="position-relative mb-5">
+    <div class="position-absolute shadow-sm" style="left: -33px; top: 0; background: #6c757d; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
+    <h5 class="mb-1 **font-weight-bold**">IT Physical Security Trainee [cite: 29]</h5>
+    <p class="text-secondary mb-2">**Renocon Security Agencies** | 2024 — 2025 [cite: 30, 31]</p>
+    <ul class="text-muted small">
+      <li>**Design & Installation**: Specialized in physical security with **RFID and Biometrics**[cite: 34].</li>
+      <li>**Efficiency**: Contributed to a **25% increase** in critical system uptime[cite: 34].</li>
+    </ul>
   </div>
 
-  <div class="timeline-item pb-3 border-left ml-3 pl-4">
-    <h5 class="mb-0">Technical Support Trainee</h5>
-    <p class="text-info mb-1">Mwebi Limited Kenya | Jan 2024 – Mar 2024</p>
-    <small>Provided AI-aided virtual assistance and managed hardware maintenance for schools.</small>
+  <div class="position-relative mb-4">
+    <div class="position-absolute shadow-sm" style="left: -33px; top: 0; background: #6c757d; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
+    <h5 class="mb-1 **font-weight-bold**">IT Technician (Attachee) [cite: 48]</h5>
+    <p class="text-secondary mb-2">**Kenya Power & Lighting Company (KPLC)** | 2023 [cite: 49, 50, 51]</p>
+    <ul class="text-muted small">
+      <li>**Networking**: Fiber repairs using **fiber splicing kits** and troubleshooting LAN/WAN[cite: 53].</li>
+      <li>**Admin**: Configuration of network printers and **in-house business systems (SAP/DCS)**[cite: 53, 54].</li>
+    </ul>
   </div>
+</div>
 
-  <div class="timeline-item pb-3 border-left ml-3 pl-4">
-    <h5 class="mb-0">IT Technician (Industrial Attachment)</h5>
-    <p class="text-info mb-1">Kenya Power & Lighting Company (KPLC) | 2023</p>
-    <small>Performed fiber splicing, network troubleshooting, and hardware servicing across branches.</small>
-  </div>
-
-  <h3 class="mt-4"><i class="fas fa-certificate"></i> Professional Certifications</h3>
-  <div class="row">
-    <div class="col-md-6 mb-2">
-      <div class="p-2 border rounded shadow-sm"><i class="fas fa-check-circle text-success"></i> Introduction to Cybersecurity (Cisco)</div>
+<h3 class="text-navy mt-5 mb-4"><i class="fas fa-tools mr-2"></i> TECHNICAL ARSENAL</h3>
+<div class="row text-center">
+  <div class="col-6 col-md-3 mb-4">
+    <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
+      <i class="fab fa-python fa-2x mb-2" style="color: var(--brand-navy);"></i>
+      <div class="small **font-weight-bold**">Python [cite: 61]</div>
     </div>
-    <div class="col-md-6 mb-2">
-      <div class="p-2 border rounded shadow-sm"><i class="fas fa-check-circle text-success"></i> Cybersecurity Fundamentals (CIP Cyber)</div>
-    </div>
-    <div class="col-md-6 mb-2">
-      <div class="p-2 border rounded shadow-sm"><i class="fas fa-check-circle text-success"></i> Web Development Bootcamp (Udemy)</div>
-    </div>
-    <div class="col-md-6 mb-2">
-      <div class="p-2 border rounded shadow-sm"><i class="fas fa-check-circle text-success"></i> Virtual Assistant (ALX)</div>
+  </div>
+  <div class="col-6 col-md-3 mb-4">
+    <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
+      <i class="fas fa-shield-alt fa-2x mb-2" style="color: var(--brand-navy);"></i>
+      <div class="small **font-weight-bold**">Cybersecurity [cite: 94]</div>
     </div>
   </div>
+  <div class="col-6 col-md-3 mb-4">
+    <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
+      <i class="fas fa-network-wired fa-2x mb-2" style="color: var(--brand-navy);"></i>
+      <div class="small **font-weight-bold**">Networking [cite: 66]</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-3 mb-4">
+    <div class="p-3 shadow-sm border-0 rounded bg-white h-100" style="border-top: 4px solid var(--brand-orange) !important;">
+      <i class="fas fa-database fa-2x mb-2" style="color: var(--brand-navy);"></i>
+      <div class="small **font-weight-bold**">SQL/PHP [cite: 72]</div>
+    </div>
+  </div>
+</div>
 
-  <h3 class="mt-4"><i class="fas fa-code"></i> Technical Expertise</h3>
-  <div class="d-flex flex-wrap">
-    <span class="badge badge-dark p-2 m-1">Python</span>
-    <span class="badge badge-dark p-2 m-1">JavaScript/HTML/CSS</span>
-    <span class="badge badge-dark p-2 m-1">PHP/MySQL</span>
-    <span class="badge badge-dark p-2 m-1">Active Directory</span>
-    <span class="badge badge-dark p-2 m-1">Network Troubleshooting</span>
-    <span class="badge badge-dark p-2 m-1">CCTV & Surveillance</span>
+<div class="row mt-2">
+  <div class="col-md-6 mb-3">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-body">
+        <h5 class="text-navy"><i class="fas fa-certificate text-warning mr-2"></i> **Certifications**</h5>
+        <ul class="list-unstyled small pt-2">
+          <li><i class="fas fa-check text-success mr-2"></i> Introduction to Cybersecurity (Cisco) [cite: 94]</li>
+          <li><i class="fas fa-check text-success mr-2"></i> Virtual Assistant (ALX) [cite: 93]</li>
+          <li><i class="fas fa-check text-success mr-2"></i> Web Development (Udemy) [cite: 97]</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 mb-3">
+    <div class="card border-0 shadow-sm h-100">
+      <div class="card-body text-center">
+        <h5 class="text-navy mb-3">**Languages** [cite: 7]</h5>
+        <div class="d-flex justify-content-around">
+          <div><span class="**font-weight-bold**">English</span><br><small class="badge badge-light border">Advanced [cite: 7]</small></div>
+          <div><span class="**font-weight-bold**">Kiswahili</span><br><small class="badge badge-light border">Advanced [cite: 8]</small></div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
