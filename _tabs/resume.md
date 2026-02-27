@@ -36,30 +36,34 @@ order: 2
         <p class="mb-0 text-secondary">Technical University of Mombasa | 2019 — 2023 </p>
       </div>
       <span class="badge p-2 px-3 shadow-sm" style="background-color: var(--brand-orange); color: white; font-size: 0.9rem;">
-        1st CLASS HONORS
+        **1st CLASS HONORS**
       </span>
     </div>
+  </div>
 
+<div>
      <div class="d-flex justify-content-between align-items-center">
       <div>
         <h4 class="mb-1 **font-weight-bold**">Kenya Certificate of Secondary Education - KCSE</h4>
         <p class="mb-0 text-secondary">Nyambaria High School | 2014 — 2018 </p>
       </div>
       <span class="badge p-2 px-3 shadow-sm" style="background-color: var(--brand-orange); color: white; font-size: 0.9rem;">
-        B (Plain)
+        **B (Plain)**
       </span>
     </div>
+   </div> 
 
-
+<div>
      <div class="d-flex justify-content-between align-items-center">
       <div>
-        <h5 class="mb-1 **font-weight-bold**">Kenya Certificate of Primary Education - KCPE</h5>
+        <h4 class="mb-1 font-weight-bold">Kenya Certificate of Primary Education - KCPE</h4>
         <p class="mb-0 text-secondary">St. Andrews Kaggwa Boys Primary School | 2005 — 2013 </p>
       </div>
       <span class="badge p-2 px-3 shadow-sm" style="background-color: var(--brand-orange); color: white; font-size: 0.9rem;">
-        A- (Minus)
+        **A- (Minus)**
       </span>
     </div>
+  </div> 
 
   </div>
 </div>
@@ -69,18 +73,18 @@ order: 2
 
   <div class="position-relative mb-5">
     <div class="position-absolute shadow-sm timeline-dot" style="left: -33px; top: 0; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
-    <h5 class="mb-1 **font-weight-bold**">IT Administrator [cite: 17]</h5>
+    <h5 class="mb-1 **font-weight-bold**">IT Administrator</h5>
     <p class="mb-2" style="color: var(--brand-orange); font-weight: 600;"> Bayinah Academy | Feb 2025 — Present </p>
     <ul class="text-muted small">
       <li>System Management: Routine technical support for ERP platforms and cloud systems.</li>
-      <li>Security: Oversight of Biometric attendance** and **CCTV infrastructure.</li>
+      <li>Security: Oversight of Biometric attendance and CCTV infrastructure.</li>
       <li>Uptime: Ensuring 98%+ system uptime across all ICT assets</li>
     </ul>
   </div>
 
   <div class="position-relative mb-5">
     <div class="position-absolute shadow-sm" style="left: -33px; top: 0; background: #6c757d; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
-    <h5 class="mb-1 **font-weight-bold**">IT Physical Security Trainee</h5>
+    <h5 class="mb-1 font-weight-bold">IT Physical Security Trainee</h5>
     <p class="text-secondary mb-2">Renocon Security Agencies | 2024 — 2025 ]</p>
     <ul class="text-muted small">
       <li>Design & Installation: Specialized in physical security with RFID and Biometrics.</li>
@@ -90,7 +94,7 @@ order: 2
 
   <div class="position-relative mb-4">
     <div class="position-absolute shadow-sm" style="left: -33px; top: 0; background: #6c757d; border-radius: 50%; width: 16px; height: 16px; border: 3px solid white;"></div>
-    <h5 class="mb-1 **font-weight-bold**">IT Technician (Attachee)</h5>
+    <h5 class="mb-1 font-weight-bold">IT Technician (Attachee)</h5>
     <p class="text-secondary mb-2">Kenya Power & Lighting Company (KPLC) | 2023 </p>
     <ul class="text-muted small">
       <li>Networking: Fiber repairs using fiber splicing kits and troubleshooting LAN/WAN </li>
@@ -140,13 +144,18 @@ order: 2
       </div>
     </div>
   </div>
+  
   <div class="col-md-6 mb-3">
     <div class="card border-0 shadow-sm h-100">
       <div class="card-body text-center">
         <h5 class="text-navy mb-3">Languages</h5>
         <div class="d-flex justify-content-around">
-          <div><span class="**font-weight-bold**">English</span><br><small class="badge badge-light border">Advanced </small></div>
-          <div><span class="**font-weight-bold**">Kiswahili</span><br><small class="badge badge-light border">Advanced</small></div>
+          <div>
+            <span class="font-weight-bold">English</span><br><small class="badge badge-light border">Advanced </small>
+          </div>
+          <div>
+            <span class="font-weight-bold">Kiswahili</span><br><small class="badge badge-light border">Advanced</small>
+          </div>
         </div>
       </div>
     </div>
