@@ -16,7 +16,7 @@ I am currently open to new opportunities, specialized AI security consultations,
   <a href="https://www.linkedin.com/in/mishael-momanyi" target="_blank" class="btn btn-outline-info" style="padding: 10px 20px;">
     <i class="fab fa-linkedin"></i> LinkedIn
   </a>
-  <a href="https://github.com/mishhopkins" target="_blank" class="btn btn-outline-dark" style="padding: 10px 20px;">
+  <a href="https://github.com/Mishhopkins" target="_blank" class="btn btn-outline-dark" style="padding: 10px 20px;">
     <i class="fab fa-github"></i> GitHub
   </a>
 </div>
@@ -28,7 +28,7 @@ If you prefer a direct conversation or have an urgent technical inquiry, feel fr
 
 | Channel | Detail |
 | :--- | :--- |
-| **Phone / WhatsApp** | [+254 XXX XXX XXX](tel:+254XXXXXXXXX) |
+| **Phone / WhatsApp** | [+254 718 045 850](tel:+254750496190) |
 | **Location** | Nairobi, Kenya |
 | **Availability** | Mon — Fri, 9:00 AM - 6:00 PM (EAT) |
 
