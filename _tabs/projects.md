@@ -118,7 +118,7 @@ order: 3
   <div class="col-md-6 mb-4">
     <div class="card project-card shadow-sm h-100">
       <div class="img-container">
-        <img src="/assets/img/titanic_thumbnail.png" class="card-img-top" alt="Titanic EDA Guide">
+        <img src="/assets/img/titanic_thumbnail3.png" class="card-img-top" alt="Titanic EDA Guide">
         <div class="position-absolute" style="top: 12px; right: 12px;">
           <span class="badge badge-pill badge-category p-2 px-3 shadow">DATA SCIENCE</span>
         </div>
