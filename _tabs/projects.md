@@ -115,4 +115,40 @@ order: 3
     </div>
   </div>
 
+  <div class="col-md-6 mb-4">
+    <div class="card project-card shadow-sm h-100">
+      <div class="img-container">
+        <img src="/assets/img/titanic_thumbnail.png" class="card-img-top" alt="Titanic EDA Guide">
+        <div class="position-absolute" style="top: 12px; right: 12px;">
+          <span class="badge badge-pill badge-category p-2 px-3 shadow">DATA SCIENCE</span>
+        </div>
+      </div>
+      <div class="card-body p-4 d-flex flex-column">
+        <h3 class="text-brand-navy mb-3">DATA EXPLORATION GUIDE</h3>
+        <details>
+          <summary><i class="fas fa-plus-circle mr-2"></i>Read Project Details</summary>
+          <div class="details-content">
+            <p class="card-text text-dark small mb-3">
+              **Objective:** Identify key survival factors (social class, gender, age) among 891 Titanic passengers using a 7-Task EDA framework.
+              <br><br>
+              **Workflow:** Conducted Data Quality Audits, Univariate/Bivariate analysis, Outlier Detection, and Feature Engineering.
+            </p>
+            <div class="mb-2">
+              <span class="badge badge-light border text-navy">#Python</span>
+              <span class="badge badge-light border text-navy">#EDA</span>
+              <span class="badge badge-light border text-navy">#Data_Visualization</span>
+            </div>
+          </div>
+        </details>
+        <div class="mt-auto">
+          <a href="https://www.kaggle.com/code/mishaelmomanyi/mishael-morara-eda-exploratory-data-analysis" target="_blank" class="btn btn-view btn-block p-2 mt-2">
+            <i class="fas fa-external-link-alt mr-2"></i> **EXPLORE ON KAGGLE**
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
 </div>
