@@ -17,6 +17,6 @@ Today In the name of convenience, many people reuse weak passwords across multip
 
 That’s where Password Managers come in. 🛡️
 
-![password-managers](/assets/pass2.jpeg){: width="600"}
+![password-managers](/assets/pass2.jpg){: width="600"}
 
 Making up our topic today📌
