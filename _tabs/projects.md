@@ -31,19 +31,24 @@ order: 3
   details summary::-webkit-details-marker { display: none; }
   details[open] summary { color: var(--project-navy); margin-bottom: 15px; }
   .details-content { border-left: 3px solid var(--project-orange); padding-left: 15px; margin-top: 10px; }
+
+  /* Filter Pill Styling */
+  .filter-pill { cursor: pointer; transition: 0.3s; }
+  .filter-pill:hover { background: var(--project-orange) !important; color: white !important; border-color: var(--project-orange) !important; }
+  .filter-active { background: var(--project-navy) !important; color: white !important; border-color: var(--project-navy) !important; }
 </style>
 
-<div class="d-flex flex-wrap mb-5">
-  <span class="badge badge-pill badge-dark p-2 px-3 mr-2 mb-2">All</span>
-  <span class="badge badge-pill badge-light border p-2 px-3 mr-2 mb-2">Data Science</span>
-  <span class="badge badge-pill badge-light border p-2 px-3 mr-2 mb-2">Machine Learning</span>
-  <span class="badge badge-pill badge-light border p-2 px-3 mr-2 mb-2">Web Development</span>
-  <span class="badge badge-pill badge-light border p-2 px-3 mr-2 mb-2">Graphics Design</span>
+<div class="d-flex flex-wrap mb-5" id="filter-container">
+  <span class="badge badge-pill badge-dark p-2 px-3 mr-2 mb-2 filter-pill filter-active" onclick="filterProjects('all', this)">All</span>
+  <span class="badge badge-pill badge-light border p-2 px-3 mr-2 mb-2 filter-pill" onclick="filterProjects('Data Science', this)">Data Science</span>
+  <span class="badge badge-pill badge-light border p-2 px-3 mr-2 mb-2 filter-pill" onclick="filterProjects('Machine Learning', this)">Machine Learning</span>
+  <span class="badge badge-pill badge-light border p-2 px-3 mr-2 mb-2 filter-pill" onclick="filterProjects('Web Development', this)">Web Development</span>
+  <span class="badge badge-pill badge-light border p-2 px-3 mr-2 mb-2 filter-pill" onclick="filterProjects('Graphics Design', this)">Graphics Design</span>
 </div>
 
-<div class="row">
+<div class="row" id="projects-grid">
 
-  <div class="col-md-6 mb-4">
+  <div class="col-md-6 mb-4 project-item" data-category="Data Science">
     <div class="card project-card shadow-sm h-100">
       <div class="img-container">
         <img src="/assets/img/my_Thumbnail.png" class="card-img-top" alt="Netflix Data Wrangling">
@@ -53,33 +58,28 @@ order: 3
       </div>
       <div class="card-body p-4 d-flex flex-column">
         <h3 class="text-brand-navy mb-3">NETFLIX DATA WRANGLING</h3>
-        
         <details>
           <summary><i class="fas fa-plus-circle mr-2"></i>Read Project Details</summary>
           <div class="details-content">
             <p class="card-text text-dark small mb-3">
-              **The Challenge:** Raw Netflix datasets contain noise and inconsistencies[cite: 10, 67].
+              **The Challenge:** Raw Netflix datasets contain noise and inconsistencies.
               <br><br>
-              **The Solution:** Executed a full lifecycle: Cleaning (removing duplicates/nulls), Structuring (standardizing formats), and Validating[cite: 67].
+              **The Solution:** Executed a full lifecycle: Cleaning, Structuring, and Validating.
             </p>
             <div class="mb-2">
               <span class="badge badge-light border text-navy">#Python</span>
               <span class="badge badge-light border text-navy">#Pandas</span>
-              <span class="badge badge-light border text-navy">#Data_Wrangling</span>
             </div>
           </div>
         </details>
-
         <div class="mt-auto">
-          <a href="https://www.kaggle.com/code/mishaelmomanyi/mishael-morara-netflix-data-wrangling" target="_blank" class="btn btn-view btn-block p-2 mt-2">
-            <i class="fas fa-external-link-alt mr-2"></i> **EXPLORE ON KAGGLE**
-          </a>
+          <a href="https://www.kaggle.com/code/mishaelmomanyi/mishael-morara-netflix-data-wrangling" target="_blank" class="btn btn-view btn-block p-2 mt-2">EXPLORE ON KAGGLE</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="col-md-6 mb-4">
+  <div class="col-md-6 mb-4 project-item" data-category="Data Science">
     <div class="card project-card shadow-sm h-100">
       <div class="img-container">
         <img src="/assets/img/my_Thumbnail2.png" class="card-img-top" alt="Web Scraping Python">
@@ -89,33 +89,22 @@ order: 3
       </div>
       <div class="card-body p-4 d-flex flex-column">
         <h3 class="text-brand-navy mb-3">WEB SCRAPING USING PYTHON</h3>
-        
         <details>
           <summary><i class="fas fa-plus-circle mr-2"></i>Read Project Details</summary>
           <div class="details-content">
             <p class="card-text text-dark small mb-3">
-              **Objective:** Automate data extraction using `BeautifulSoup` and `requests`[cite: 72].
-              <br><br>
-              **Outcome:** Processed raw HTML into a structured Pandas DataFrame and exported to .csv[cite: 67, 72].
+              **Objective:** Automate data extraction using `BeautifulSoup` and `requests`.
             </p>
-            <div class="mb-2">
-              <span class="badge badge-light border text-navy">#Python</span>
-              <span class="badge badge-light border text-navy">#BeautifulSoup</span>
-              <span class="badge badge-light border text-navy">#Web_Scraping</span>
-            </div>
           </div>
         </details>
-
         <div class="mt-auto">
-          <a href="https://colab.research.google.com/drive/1uYArj-ycabLCc004sUyZ45bO13G03xqq?usp=sharing" target="_blank" class="btn btn-view btn-block p-2 mt-2">
-            <i class="fas fa-external-link-alt mr-2"></i> **VIEW ON GOOGLE COLAB**
-          </a>
+          <a href="https://colab.research.google.com/drive/1uYArj-ycabLCc004sUyZ45bO13G03xqq?usp=sharing" target="_blank" class="btn btn-view btn-block p-2 mt-2">VIEW ON GOOGLE COLAB</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="col-md-6 mb-4">
+  <div class="col-md-6 mb-4 project-item" data-category="Data Science">
     <div class="card project-card shadow-sm h-100">
       <div class="img-container">
         <img src="/assets/img/titanic_thumbnail3.png" class="card-img-top" alt="Titanic EDA Guide">
@@ -129,21 +118,12 @@ order: 3
           <summary><i class="fas fa-plus-circle mr-2"></i>Read Project Details</summary>
           <div class="details-content">
             <p class="card-text text-dark small mb-3">
-              **Objective:** Identify key survival factors (social class, gender, age) among 891 Titanic passengers using a 7-Task EDA framework.
-              <br><br>
-              **Workflow:** Conducted Data Quality Audits, Univariate/Bivariate analysis, Outlier Detection, and Feature Engineering.
+              **Objective:** Identify key survival factors using a 7-Task EDA framework.
             </p>
-            <div class="mb-2">
-              <span class="badge badge-light border text-navy">#Python</span>
-              <span class="badge badge-light border text-navy">#EDA</span>
-              <span class="badge badge-light border text-navy">#Data_Visualization</span>
-            </div>
           </div>
         </details>
         <div class="mt-auto">
-          <a href="https://www.kaggle.com/code/mishaelmomanyi/mishael-morara-eda-exploratory-data-analysis" target="_blank" class="btn btn-view btn-block p-2 mt-2">
-            <i class="fas fa-external-link-alt mr-2"></i> **EXPLORE ON KAGGLE**
-          </a>
+          <a href="https://www.kaggle.com/code/mishaelmomanyi/mishael-morara-eda-exploratory-data-analysis" target="_blank" class="btn btn-view btn-block p-2 mt-2">EXPLORE ON KAGGLE</a>
         </div>
       </div>
     </div>
@@ -151,3 +131,25 @@ order: 3
 
 </div>
 
+<script>
+function filterProjects(category, element) {
+  // 1. Update Active UI
+  const pills = document.querySelectorAll('.filter-pill');
+  pills.forEach(pill => {
+    pill.classList.remove('filter-active', 'badge-dark');
+    pill.classList.add('badge-light', 'border');
+  });
+  element.classList.add('filter-active');
+  element.classList.remove('badge-light', 'border');
+
+  // 2. Filter Cards
+  const projects = document.querySelectorAll('.project-item');
+  projects.forEach(project => {
+    if (category === 'all' || project.getAttribute('data-category') === category) {
+      project.style.display = 'block';
+    } else {
+      project.style.display = 'none';
+    }
+  });
+}
+</script>
